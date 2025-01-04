@@ -26,10 +26,8 @@ import numpy as np
 arr=np.array(eval(input()))
 result=np.linalg.norm(arr,1)
 print(result)
+
 ```
-
-
-
 # 2-Norm of a Matrix
 ```
 '''
@@ -39,6 +37,7 @@ arr=np.array(eval(input()))
 result=np.linalg.norm(arr,2)
 norm_matrix="{:.2f}".format(result)
 print(norm_matrix)
+
 ```
 
 
@@ -49,12 +48,16 @@ import numpy as np
 arr=np.array(eval(input()))
 result=np.linalg.norm(arr,np.inf)
 print(result)
+
 ```
+
 ## Output:
+
 ### 1-Norm of a Matrix
 ![Alt text](<Screenshot from 2025-01-04 21-03-29.png>)
 ### 2-Norm of a Matrix
 ![Alt text](<Screenshot from 2025-01-04 21-02-06.png>)
+
 
 
 ### Infinity Norm of a Matrix
